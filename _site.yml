@@ -1,4 +1,4 @@
-output_dir: docs # to host on GitHub pages
+output_dir: "." # to host on GitHub pages
 navbar: # links to include in the bar at the top of every page
   - text: "Home"
     href: index.html
