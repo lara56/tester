@@ -1,20 +1,17 @@
-output_dir: "." # to host on GitHub pages
-navbar: # links to include in the bar at the top of every page
-  - text: "Home"
-    href: index.html
-  - text: "Tech docs"
-    href: tech-docs.html
-  - text: "News"
-    href: NEWS.html
-output:
-  govdown::govdown_document:
-    font: "sans-serif" # (default) or "new-transport"
-    favicon: "custom" # or "none" (default) or "govuk" see ?govdown_document
-    logo: "images/logo.svg" # or false (default)
-    logo_url: "https://ukgovdatascience.github.io/govdown"
-    logo_text: "logo_text"
-    page_title: "page_title"
-    title: "title"
-    phase: alpha
-    feedback_url: "https://github.com/ukgovdatascience/govdown/issues"
-    google_analytics: "UA-12345678-90"
+name: "my-website"
+
+output_dir: "."
+
+navbar:
+
+  title: "My Website"
+
+  left:
+
+    - text: "Home"
+
+      href: index.html
+
+    - text: "About"
+
+      href: about.html
